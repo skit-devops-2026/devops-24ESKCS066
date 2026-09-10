@@ -39,7 +39,7 @@ def test_feature_file_contains_expected_features():
 
     features = joblib.load("models/aqi_features.joblib")
 
-    assert len(features) == 999
+    assert len(features) == 7
 
     for feature in FEATURES:
         assert feature in features
