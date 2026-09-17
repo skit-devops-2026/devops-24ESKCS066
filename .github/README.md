@@ -1,6 +1,6 @@
 Author
 
-Roll No.	Name	GitHub username
+Roll No.	  Name	      GitHub username
 24ESKCS066	Aryan Jain	er-aryan-jain
 
 
