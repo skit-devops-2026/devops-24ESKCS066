@@ -1,3 +1,9 @@
+Author
+
+Roll No.	Name	GitHub username
+24ESKCS066	Aryan Jain	er-aryan-jain
+
+
 # 🌍 AirQualityPrediction
 
 > An end-to-end Machine Learning and DevOps project for predicting **Air Quality Index (AQI)** and **AQI categories** from air-pollutant measurements.
