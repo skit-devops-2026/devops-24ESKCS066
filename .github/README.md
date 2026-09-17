@@ -1,7 +1,8 @@
 Author
 
-Roll No.	  Name	      GitHub username
-24ESKCS066	Aryan Jain	er-aryan-jain
+Roll No.:-24ESKCS066	  
+Name :- Aryan Jain	      
+GitHub username:-	er-aryan-jain
 
 
 # 🌍 AirQualityPrediction
