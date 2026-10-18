@@ -1,16 +1,19 @@
-FROM python:3.10-slim
+
+FROM python:3.14-slim
+
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
+ENV PIP_DISABLE_PIP_VERSION_CHECK=1
 
 WORKDIR /app
 
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
 
-COPY . .
+RUN python -m pip install --no-cache-dir -r requirements.txt
 
-EXPOSE 5000
+COPY app.py .
+COPY models/ ./models/
 
-<<<<<<< HEAD
-CMD ["python", "app.py"]
-=======
-CMD ["python", "app.py"]
->>>>>>> 760b9ac (Add Dockerfile and GitHub Actions workflow)
+EXPOSE 8000
+
+CMD ["sh", "-c", "python -m uvicorn app:app --host 0.0.0.0 --port ${PORT:-8000}"]

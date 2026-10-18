@@ -2,6 +2,7 @@ from fastapi import FastAPI
 import joblib
 import pandas as pd
 import os
+from prometheus_fastapi_instrumentator import Instrumentator
 
 # ==========================================
 # APP
@@ -12,6 +13,8 @@ app = FastAPI(
     description="API for AQI prediction using Machine Learning",
     version="1.0"
 )
+
+Instrumentator().instrument(app).expose(app, endpoint="/metrics")
 
 # ==========================================
 # PATHS
