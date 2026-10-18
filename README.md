@@ -1,3 +1,4 @@
+
 # AirQualityPrediction
 
 An end-to-end Machine Learning and DevOps project for predicting **Air Quality Index (AQI)** and its corresponding air-quality category using pollutant data collected from the **Central Pollution Control Board (CPCB)** through the Government of India's Open Government Data Platform.
@@ -112,3 +113,22 @@ The prediction model uses the following pollutants:
                             |
                             v
                   AQI + Category Result
+# pytest cache directory #
+
+This directory contains data from the pytest's cache plugin,
+which provides the `--lf` and `--ff` options, as well as the `cache` fixture.
+
+**Do not** commit this to version control.
+
+See [the docs](https://docs.pytest.org/en/stable/how-to/cache.html) for more information.
+
+## Deployment
+
+- **Live API:** https://devops-24eskcs066.onrender.com
+- **API Documentation:** https://devops-24eskcs066.onrender.com/docs
+- **Prometheus Metrics:** https://devops-24eskcs066.onrender.com/metrics
+
+## Monitoring
+
+- Prometheus configuration: `monitoring/prometheus.yml`
+- Grafana dashboard: `monitoring/airquality-dashboard.json`
