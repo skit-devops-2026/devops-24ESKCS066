@@ -1,0 +1,23 @@
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: aqi-api
+  labels:
+    app: aqi-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: aqi-api
+  template:
+    metadata:
+      labels:
+        app: aqi-api
+    spec:
+      containers:
+        - name: aqi-api
+          image: ghcr.io/er-aryan-jain/air-quality-prediction:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8000

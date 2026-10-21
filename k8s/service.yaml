@@ -1,0 +1,13 @@
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: aqi-api-service
+spec:
+  type: ClusterIP
+  selector:
+    app: aqi-api
+  ports:
+    - protocol: TCP
+      port: 8000
+      targetPort: 8000
