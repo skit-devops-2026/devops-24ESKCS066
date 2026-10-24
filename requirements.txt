@@ -6,4 +6,4 @@ scikit-learn
 joblib
 pytest
 httpx
-prometheus-fastapi-instrumentator==VERSION_SHOWN
+prometheus-fastapi-instrumentator==8.1.0
