@@ -125,7 +125,7 @@ See [the docs](https://docs.pytest.org/en/stable/how-to/cache.html) for more inf
 
 ## Live URL
 
-- **Live API:** https://devops-24eskcs066.onrender.com
+https://devops-24eskcs066.onrender.com
 - **API Documentation:** https://devops-24eskcs066.onrender.com/docs
 - **Monitoring Metrics:** https://devops-24eskcs066.onrender.com/metrics
 
