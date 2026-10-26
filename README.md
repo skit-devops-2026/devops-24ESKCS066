@@ -134,3 +134,7 @@ https://devops-24eskcs066.onrender.com
 
 - Prometheus configuration: `monitoring/prometheus.yml`
 - Grafana dashboard: `monitoring/airquality-dashboard.json`
+
+## Live URL
+
+https://devops-24eskcs066.onrender.com
