@@ -122,3 +122,7 @@ The main objectives of the project are:
               │                          │
               ▼                          ▼
         Automated Tests             Test + Verify
+
+## Live URL
+
+https://devops-24eskcs066.onrender.com
